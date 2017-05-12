@@ -1,0 +1,22 @@
+{
+  "name": "csx-prototype",
+  "version": "1.0.0",
+  "description": "Static protype available at csx-gitbook/csx-static/index.html. Most of the access styles and js has been removed. Note: many behaviors won't work locally without running it on a server due to Chrome security stuff.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkchuynh829/csx-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkchuynh829/csx-prototype/issues"
+  },
+  "homepage": "https://github.com/jkchuynh829/csx-prototype#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
