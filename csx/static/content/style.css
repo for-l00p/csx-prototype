@@ -3491,7 +3491,12 @@ table {
 }
 
 .logo {
-  text-align: center;
+  margin: 0 auto;
+  width: 185px;
+  height: 171px;
+  background-image: url('images/csx-codesmith-logo.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
   margin-top: 12px;
 }
 
@@ -4329,4 +4334,17 @@ body {
   text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
+}
+
+#video {
+  display: flex;
+  align-self: center;
+  margin: 100px auto;
+  height: 60vh;
+  width: 80%;
+}
+
+.youtube {
+  height: 100%;
+  width: 100%;
 }
