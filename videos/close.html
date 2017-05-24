@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="">
     <meta name="generator" content="GitBook 3.2.2">
+    <link rel="stylesheet" href="https://cdn.plyr.io/2.0.13/plyr.css">
     <link rel="stylesheet" href="../csx/static/content/style.css">
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -16,6 +17,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../csx/static/content/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../csx/static/content/images/favicon.ico" type="image/x-icon">
     <link rel="next" href="../csx/static/recursion/welcomevideo.html" />
+	<script src="https://cdn.plyr.io/2.0.13/plyr.js"></script>
 </head>
 
 <body>
@@ -69,9 +71,7 @@
         <div class="book-body">
             <div class="book-header" role="navigation"></div>
             <div class="page-wrapper" tabindex="-1" role="main">
-                <div id="video">
-                    <iframe frameborder="0" class="youtube" src="https://www.youtube.com/embed/72zQxQH1FRw?rel=0&amp;showinfo=0?ecver=2"></iframe>
-                </div>
+                <div data-type="youtube" data-video-id="72zQxQH1FRw"></div>
             </div>
             <a href="../solutions/factorial.html" class="navigation navigation-prev" aria-label="">
                 <i class="fa fa-angle-left"></i>
@@ -82,8 +82,10 @@
         </div>
         <script>
 
-
             var gitbook = gitbook || [];
+
+            plyr.setup();
+
             gitbook.push(function () {
                 gitbook.page.hasChanged({
                     "page": {
@@ -186,6 +188,7 @@
     </div>
     <script src="../csx/static/content/gitbook.js"></script>
     <script src="../csx/static/content/theme.js"></script>
+    <script>plyr.setup();</script>
     <!--<script src="content/content-plugin-search/search-engine.js"></script>
         
     

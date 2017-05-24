@@ -4325,3 +4325,7 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
+
+.plyr {
+  width: 80%;
+}

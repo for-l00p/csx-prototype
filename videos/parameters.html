@@ -16,6 +16,9 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../csx/static/content/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../csx/static/content/images/favicon.ico" type="image/x-icon">
     <link rel="next" href="../csx/static/recursion/welcomevideo.html" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/2.0.13/plyr.css">
+	<!--<link rel="stylesheet" href="path/to/plyr.css">-->
+	<script src="https://cdn.plyr.io/2.0.13/plyr.js"></script>
 </head>
 
 <body>
@@ -70,7 +73,7 @@
             <div class="book-header" role="navigation"></div>
             <div class="page-wrapper" tabindex="-1" role="main">
                 <div id="video">
-                    <iframe frameborder="0" class="youtube" src="https://www.youtube.com/embed/72zQxQH1FRw?rel=0&amp;showinfo=0?ecver=2"></iframe>
+                    <div data-type="youtube" data-video-id="72zQxQH1FRw"></div>
                 </div>
             </div>
             <a href="../solutions/repeater.html" class="navigation navigation-prev" aria-label="">
@@ -84,6 +87,9 @@
 
 
             var gitbook = gitbook || [];
+
+            plyr.setup();
+
             gitbook.push(function () {
                 gitbook.page.hasChanged({
                     "page": {

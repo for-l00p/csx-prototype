@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jkchuynh829/csx-prototype#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "plyr": "^2.0.13"
   }
 }
